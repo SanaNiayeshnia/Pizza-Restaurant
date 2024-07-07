@@ -82,11 +82,7 @@ function CreateOrder() {
                 )}
 
                 {!address && status === "loading" && (
-                  <img
-                    className="w-10"
-                    src="../../../public/Loader2.gif"
-                    alt="loader"
-                  />
+                  <img className="w-10" src="/Loader2.gif" alt="loader" />
                 )}
               </div>
               <textarea
