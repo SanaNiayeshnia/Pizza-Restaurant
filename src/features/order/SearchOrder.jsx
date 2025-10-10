@@ -9,7 +9,7 @@ function SearchOrder() {
       onSubmit={(e) => {
         e.preventDefault();
         if (!query) return;
-        navigate(`order/${query}`);
+        navigate(`/order/${query}`);
         setQuery("");
       }}
     >

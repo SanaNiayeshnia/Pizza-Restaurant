@@ -32,7 +32,7 @@ function App() {
           action: createOrderAction,
         },
         {
-          path: "order/:orderId",
+          path: "/order/:orderId",
           element: <Order />,
           loader: orderLoader,
           action: updateOrderAction,
